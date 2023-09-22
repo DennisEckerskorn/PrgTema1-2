@@ -6,7 +6,7 @@ public class EjerCuatro {
 		int resultadoC;
 		int resultadoD;
 		
-		//Operaciones que se guardan en las variables
+		//Operaciones que se guardan en las variables, java calcula de izquierda a derecha por preferencia de operandos. Multiplicacion y division se hace antes que una resta.
 		resultadoA = 25 + 20 - 15;
 		resultadoB = 20 * 10 +15 * 10;
 		resultadoC = 20 * 10 / 2 - 20 / 5 * 3;
@@ -17,8 +17,5 @@ public class EjerCuatro {
 		System.out.println("20*10+15*10 = " + resultadoB);
 		System.out.println("20*10/2-20/5*3 = " + resultadoC);
 		System.out.println("15/10*2+3/4*8 = " + resultadoD);
-		
-		//Resultados calculados con calculadora.
-		System.out.println("Los resultados reales son: 30, 350, 88, 9");
 	}
 }
