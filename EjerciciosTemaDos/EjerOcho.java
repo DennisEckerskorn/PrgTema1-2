@@ -14,11 +14,11 @@ public class EjerOcho {
 		System.out.println("¿Cuántos años tienes?");
 		edadPersona = Integer.parseInt(lector.nextLine());
 		
-		//Se multiplican 365 por el año indicado. No se tienen en cuenta años bisiestos.
+		//Se multiplican 365 días por el año indicado. No se tienen en cuenta años bisiestos.
 		dias = edadPersona * anyo;
 		
 		//Se imprime el resultado por pantalla.
-		System.out.println("Tienes " + edadPersona + " años lo que equivale a " + dias + " días");
+		System.out.println("Tienes " + edadPersona + " años, lo que equivale a " + dias + " días");
 
 	}
 }
