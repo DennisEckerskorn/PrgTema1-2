@@ -1,27 +1,27 @@
 public class EjerDiez {
 	//Declaramos la variable de tipo de referencia enum.
-	public enum Anyo {
-		ENERO, FEBRERO, MARZO, ABRIL, MAYO, JUNIO, JULIO, AGOSTO, SEPTIEMBRE, 			OCTUBRE, NOVIEMBRE, DICIEMBRE	
+	public enum Mes {
+		ENERO, FEBRERO, MARZO, ABRIL, MAYO, JUNIO, JULIO, AGOSTO, SEPTIEMBRE, OCTUBRE, NOVIEMBRE, DICIEMBRE	
 	}
-	public enum Nota{
+	public enum NotaMusical {
 		DO, RE, MI, FA, SOL, LA, SI
 	}
-	public enum Calificacion{
-		INSUFICIENTE, SUFICIENTE, BIEN, EXCELENTE
+	public enum Calificacion {
+		INSUFICIENTE, APROBADO, SUFICIENTE, BIEN, SOBRESALIENTE
 	}
 	public static void main(String[] args){
 		//Inicializamos las variables de tipo enum.
-		Anyo anyo;
-		Nota nota;
+		Mes mes;
+		NotaMusical notaMusical;
 		Calificacion calificacion;
 
 		//Asignamos el valor de enum a la variable anyo.
-		anyo = Anyo.ENERO;
+		mes = Mes.ENERO;
 		//Imprimimos el resultado elegido por pantalla.
-		System.out.println(anyo);
+		System.out.println(mes);
 	
-		nota = Nota.DO;
-		System.out.println(nota);
+		notaMusical = NotaMusical.DO;
+		System.out.println(notaMusical);
 
 		calificacion = Calificacion.SUFICIENTE;
 		System.out.println(calificacion);
