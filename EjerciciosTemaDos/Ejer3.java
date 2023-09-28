@@ -1,4 +1,4 @@
-public class EjerTres {
+public class Ejer3 {
 	public static void main (String[]args) {
 		//Declaración de las variables.
 		float precioZapato = 85f;

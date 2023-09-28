@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class EjerOcho {
+public class Ejer8 {
 	public static void main (String[] args){
 		//Declaración de las variables del programa.
 		Scanner lector = new Scanner(System.in);

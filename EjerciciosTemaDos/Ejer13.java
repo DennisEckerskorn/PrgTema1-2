@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class EjerTrece{
-	public static void main(String[] args){
+public class Ejer13 {
+	public static void main(String[] args) {
 		//Declaramos las variables del programa, en este caso Long porque segundos pordrian superar el limite de un Entero.
 		Scanner lector = new Scanner(System.in);
 		long segundos, minutos, horas, dias;

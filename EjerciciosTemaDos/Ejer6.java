@@ -1,4 +1,4 @@
-public class EjerSeis {
+public class Ejer6 {
 	public static void main(String[] args){
 		//Todos los booleanos devuelven True.
 		System.out.println("a) 25>20 && 13>5 " + (25>20 && 13>5));

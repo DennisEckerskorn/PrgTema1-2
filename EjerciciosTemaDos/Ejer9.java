@@ -1,4 +1,4 @@
-public class EjerNueve {
+public class Ejer9 {
 	//Declaramos la variable de tipo de referencia enum con varios colores.
 	public enum Color{
 		RED, GREEN, BLUE

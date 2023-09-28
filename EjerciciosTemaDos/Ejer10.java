@@ -1,4 +1,4 @@
-public class EjerDiez {
+public class Ejer10 {
 	//Declaramos la variable de tipo de referencia enum.
 	public enum Mes {
 		ENERO, FEBRERO, MARZO, ABRIL, MAYO, JUNIO, JULIO, AGOSTO, SEPTIEMBRE, OCTUBRE, NOVIEMBRE, DICIEMBRE	

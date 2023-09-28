@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EjerCinco {
+public class Ejer5 {
 	public static void main(String[]args){
 	//Declaración de las variables
 	Scanner lector = new Scanner(System.in);

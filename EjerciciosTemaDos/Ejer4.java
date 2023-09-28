@@ -1,4 +1,4 @@
-public class EjerCuatro {
+public class Ejer4 {
 	public static void main(String[]args) {
 		//Declaracion Variables.
 		int resultadoA;
