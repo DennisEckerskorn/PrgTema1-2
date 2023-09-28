@@ -17,5 +17,7 @@ public class Ejer14 {
 		//Imprimimos los resultados por pantalla.
 		System.out.println("La longitud del radio es " + longitud + " cm.");
 		System.out.println("El área de la circunferencia es " + area + " cm.");
+		//Cerramos el Scanner.
+		lector.close();
 	}
 }

@@ -17,5 +17,7 @@ public class Ejer12 {
 
 		//Imprimios el resultado por pantalla.
 		System.out.println(num1 + " / " + num2 + " = " + resultado);
+		//Cerramos el Scanner.
+		lector.close();
 	}
 }

@@ -17,6 +17,7 @@ public class Ejer11 {
 
 		//Imprimios el resultado por pantalla.
 		System.out.println("La resta de " + num1 + " y "+ num2 + " es " + resultado);
-		
+		//Cerramos el Scanner.
+		lector.close();
 	}
 }
