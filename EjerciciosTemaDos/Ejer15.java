@@ -11,8 +11,10 @@ public class Ejer15 {
 		gradosCelsius = Double.parseDouble(lector.nextLine());
 		//Operaciones para convertir ºC a K y ºF.
 		gradosKelvin = 273.15 + gradosCelsius;
-		gradosFahrenheit = gradosCelsius * (9/5) + 32;
+		gradosFahrenheit = gradosCelsius * (9f/5) + 32;
 		//Imprimimos el resultado por pantalla.
 		System.out.println(gradosCelsius + "ºC son " + gradosKelvin + " K y " + gradosFahrenheit + " ºF");
+		//Cerramos el Scanner.
+		lector.close();
 	}
 }
