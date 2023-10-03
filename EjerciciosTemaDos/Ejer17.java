@@ -52,5 +52,7 @@ public class Ejer17 {
 		System.out.println("Has recorrido " + kmRecorridos + " KM, desde tu primer repostaje");
 		System.out.println("El consumo medio cada 100 KM son " + consumoMedio + " litros.");
 		System.out.println("El coste para cada kilometro son " + costeKilometro + " euros.");
+		
+		lector.close();
 	}
 }
