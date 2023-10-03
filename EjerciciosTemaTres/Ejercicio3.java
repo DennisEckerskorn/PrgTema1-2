@@ -5,7 +5,7 @@ public class Ejercicio3{
 		Scanner lector = new Scanner(System.in);
 		int edad;
 		//Se pide el valor y se guarda en edad.
-		System.out.println("¿Cuántos años tienes");
+		System.out.println("¿Cuántos años tienes?");
 		edad = Integer.parseInt(lector.nextLine());
 		//Condición para saber si es mayor o menor.
 		if (edad >= 18){
